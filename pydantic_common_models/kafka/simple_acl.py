@@ -14,6 +14,7 @@ class _EnumCaseInsensitive:
 class KafkaResourcePatternType(_EnumCaseInsensitive, StrEnum):
     literal = 'LITERAL'
     prefixed = 'PREFIXED'
+    match = 'MATCH'
 
 
 class KafkaTopicOperations(_EnumCaseInsensitive, StrEnum):
